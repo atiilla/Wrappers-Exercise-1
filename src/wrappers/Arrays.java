@@ -1,20 +1,20 @@
 package wrappers;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Scanner;
 
-public class wrapApp {
+public class Arrays {
 
 	public static void main(String[] args) {
 		
-				
+		Collection<Integer> collection = new ArrayList<>();
 		Scanner keyboard = new Scanner(System.in);
 		String input = keyboard.next();
 		int i = Integer.parseInt(input);
-		Integer integerObject = new Integer(i);
-		integerObject +=5;
-		System.out.println(integerObject.SIZE);
-		System.out.println(integerObject.BYTES);
-
+		
+		collection.add(i);
+		System.out.println(i);
 
 	}
 
