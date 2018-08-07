@@ -10,8 +10,9 @@ public class wrapApp {
 		String input = keyboard.next();
 		int i = Integer.parseInt(input);
 		Integer integerObject = new Integer(i);
-
+		
 		System.out.println(integerObject.toBinaryString(i));
+		System.out.println(integerObject.SIZE);
 		System.out.println(integerObject.byteValue());
 
 	}
